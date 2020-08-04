@@ -28,3 +28,8 @@ var zoomImg = function () {
       this.classList.remove("show");
     })
   });
+  // link overlay the hole car add
+  $(".car-ad").click(function() {
+    window.location = $(this).find("a").attr("href"); 
+    return false;
+  });
